@@ -1,2 +1,5 @@
 
 .idea/*
+go_backend/internal/validation/testdata/graphql-js
+go_backend/internal/validation/testdata/node_modules
+go_backend/vendor
