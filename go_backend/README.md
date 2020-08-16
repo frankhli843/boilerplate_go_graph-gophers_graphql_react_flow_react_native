@@ -1,27 +1,13 @@
-# Main Purpose
-- This project was created by me and its purpose is to prepare himself for his role as Frontend Software Engineer.
-- Currently the company is using the stack:Go backend with graphql
-  - Go backend
-  - GraphQl
-  - React frontend with Flow Typing
-  - Electron app with web wrapper
-- Thus this project will be a boilerplate that hooks all those together. 
-- The backend comes from the boilerplate graphql-go. Please see License file for license usage.
-- Hoping this is useful for someone out there looking to start a project as fast as possible :)
-
-
-
-
-
-
 # graphql-go [![Sourcegraph](https://sourcegraph.com/github.com/graph-gophers/graphql-go/-/badge.svg)](https://sourcegraph.com/github.com/graph-gophers/graphql-go?badge) [![Build Status](https://semaphoreci.com/api/v1/graph-gophers/graphql-go/branches/master/badge.svg)](https://semaphoreci.com/graph-gophers/graphql-go) [![GoDoc](https://godoc.org/github.com/graph-gophers/graphql-go?status.svg)](https://godoc.org/github.com/graph-gophers/graphql-go)
+
+<p align="center"><img src="docs/img/logo.png" width="300"></p>
 
 The goal of this project is to provide full support of the [GraphQL draft specification](https://facebook.github.io/graphql/draft) with a set of idiomatic, easy to use Go packages.
 
 While still under heavy development (`internal` APIs are almost certainly subject to change), this library is
 safe for production use.
 
-#### Features
+## Features
 
 - minimal API
 - support for `context.Context`
@@ -33,12 +19,12 @@ safe for production use.
 - subscriptions
    - [sample WS transport](https://github.com/graph-gophers/graphql-transport-ws)
 
-#### Roadmap
+## Roadmap
 
 We're trying out the GitHub Project feature to manage `graphql-go`'s [development roadmap](https://github.com/graph-gophers/graphql-go/projects/1).
 Feedback is welcome and appreciated.
 
-#### (Some) Documentation
+## (Some) Documentation
 
 ### Basic Sample
 
@@ -174,5 +160,3 @@ Which could produce a GraphQL error such as:
 [OscarYuen/go-graphql-starter](https://github.com/OscarYuen/go-graphql-starter) - A starter application integrated with dataloader, psql and basic authentication.
 
 [zaydek/graphql-go-walkthrough](https://github.com/ZAYDEK/graphql-go-walkthrough) - A beginner friendly walkthrough for prospective developers.
-
-
